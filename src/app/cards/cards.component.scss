@@ -1,0 +1,40 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.card{
+    background-color: #f1f1f1;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 30px;
+    flex-direction: column;
+}
+
+.cima img{
+    width: 300px;
+    height: 150px;
+    border-top: 10px;
+    object-fit: cover;
+}
+
+.baixo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-inline: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
